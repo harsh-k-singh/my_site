@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    This Post Title
+{% endblock title %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'blog/post-details.css' %}" />
+    <link rel="stylesheet" href="{% static 'blog/all-posts.css' %}" />
+    
+{% endblock css_files %}
+
+{% block content %}
+    <section id="summary">
+        <h2>Post Title</h2>
+        <article>
+            <img src="{% static 'blog/images/mountains.jpg' %}" alt="Post Image" />
+            <address>By Harsh Kumar</address>
+            <div> 
+                Last updated on <time>February 13th</time>
+            </div>
+        </article>
+    </section>
+    <main id="blog-paragraph"> 
+        <p>
+            The mountains still draw my heart from far away. In childhood, when I saw a mountain
+             or a hill from a distance, it seems like they are calling me mountains and mounds. To 
+             the rough-dry mountains of a distance of two miles, I used to go away by gallop several 
+             times. On the other side, when I saw the surrounding environment spread far and wide, 
+             I actually used to get great surprise and joy. Then raised questions in my mind, 
+             the people of the cold and lush mountains talk about, they go there in the summer, 
+             they will not know what kind? The desire to see those mountains from the beautiful moments 
+             of childhood could be completed in the summer holidays last year. In fact, it 
+             was actually a new and enjoyable experience for me.
+        </p>
+
+        <p>
+            There is no shortage of picturesque hill trails in India, but Mussoorie is the closest picturesque 
+            hill station in our city of Diu. I also read in books and even heard the people say, that Mussoorie 
+            is the Queen of the mountains. When the big family members made the program to go there in the last 
+            week of May, my mind jumped happily. On certain days we walked on our hill journey. Dehradun is called 
+            the entrance of Mussoorie. We have traveled by rail to railway This trip was also not less pleasant. 
+            To reach Dehradun, it is very difficult to cross the path of dense mountain forests, dry and hot. 
+            While the family members of other family started to struggle while traveling on the railway trip, 
+            I was seeing the outside scenes with open eyes, with the window open. High-high white trees, lush 
+            green plateau, dense jungle were attracted to the mind. I was thinking that the path of Mussoorie, 
+            which is full of natural beauty, will be very beautiful. My curiosity continued to grow and grow constantly.
+        </p>
+
+        <p> 
+            We have just completed the bus journey from Dehradun to Mussoorie. The path was very curved. Now, 
+            where it was just there, roaming and swelling there, but this time, before going higher and higher 
+            and thus the mountain factions, seeing the surrounding natural scenes, we went to the lap of the 
+            mausoleum of the mountain queen. As far as the urban roads and mountains are concerned, Mall Road is the 
+            main one. The town is on both sides of it. Large hotels, educational institutions, 
+            government offices, etc. are all mainly located on Mall Road. There are settlements on the passageways 
+            and the hotels are also there, but what about the goods road? When the bus runs from the base, the road 
+            to the road goes upside down or rising upside down. The hotel we stayed at was on the Mall Road. At one 
+            end it had to reach there after climbing a lot of climbing. When it arrived, there was some sunshine. When 
+            I bowed down in the valley below and saw it, it felt as if there was smoke-free smoke. I kept on looking 
+            astonished. Seeing that, the smoke rose up and covered the sun. Then I thought, like flying some pieces of 
+            smoke, we want to come inside and come inside our window. Seeing this I suddenly got screaming, calling for
+             my elder brother- 'Look, brother, this smoke wants to come inside.' Then smiling the brother said, 'It is 
+             not smoke, it is cloud. Keep calm, do not penetrate inside. 'And after two moments the rainy season began.
+              Smoked clouds and water became rainy In that rainy water the whole valley started to present a strange and
+               beautiful scene. In that rainy water the whole valley started to present a strange and beautiful scene. 
+               After a while the water stopped. I saw, the valley, even the Mall Road, is lying with white-white fog balls. 
+               In this way the first reception was great. This experience was really thrilling to me. Even today in my 
+               memory this thrill is settled.
+        </p>
+
+    </main>
+{% endblock content %}
